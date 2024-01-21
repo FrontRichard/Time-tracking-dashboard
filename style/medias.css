@@ -1,0 +1,45 @@
+@media screen and (width < 990px) {
+    .card__tasks{
+        grid-column: span 6;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card__actions{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .card__container_profile{
+        grid-column: span 3;
+    }
+
+    .cards__container{
+        grid-column: span 7;
+    }
+
+   
+}
+
+
+@media screen and (width < 640px) {
+     .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .card__actions{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .card__tasks{
+        grid-column: span 12;
+    }
+}
